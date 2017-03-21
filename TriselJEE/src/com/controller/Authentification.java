@@ -20,6 +20,7 @@ public class Authentification extends HttpServlet {
 	
 	public Authentification() {
 		super();
+		System.out.println("ttt");
 	}
 
 	protected void doGet(HttpServletRequest request, HttpServletResponse response)
